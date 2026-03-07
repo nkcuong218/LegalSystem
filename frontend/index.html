@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VNLaw System</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <div class="app-shell">
+        <aside class="sidebar">
+            <div>
+                <div class="brand">
+                    <div class="brand-logo">VNL</div>
+                    <div class="brand-title">VNLaw System</div>
+                </div>
+
+                <button class="menu-item active" type="button">
+                    <span class="menu-icon">💬</span>
+                    <span>Chat pháp lý</span>
+                </button>
+            </div>
+
+            <div class="sidebar-note">
+                <p>Phiên bản: 1.0.0</p>
+                <p>Hệ thống hỗ trợ tra cứu các điều luật và quy định của Việt Nam.</p>
+            </div>
+        </aside>
+
+        <main class="chat-area">
+            <header class="chat-header">
+                <h1>Trợ lý Pháp luật</h1>
+                <div class="online-status">
+                    <span class="status-dot"></span>
+                    <span>Đang hoạt động</span>
+                </div>
+            </header>
+
+            <section id="chatThread" class="chat-thread" aria-live="polite">
+                <article class="message message-bot">
+                    <div class="avatar" aria-hidden="true">⚖️</div>
+                    <div class="bubble">
+                        <div class="bubble-content">Xin chào! Tôi là Trợ lý Pháp luật Việt Nam. Tôi có thể giúp gì cho bạn hôm nay?</div>
+                    </div>
+                </article>
+            </section>
+
+            <div class="composer-wrap">
+                <div class="composer">
+                    <input id="question" type="text" placeholder="Nhập câu hỏi pháp lý của bạn vào đây..." autocomplete="off" />
+                    <button id="sendBtn" type="button" aria-label="Gửi câu hỏi">➤</button>
+                </div>
+                <p class="disclaimer">Trợ lý ảo có thể mắc lỗi. Vui lòng đối chiếu với các văn bản pháp luật chính thức.</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
