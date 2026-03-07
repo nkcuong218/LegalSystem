@@ -5,7 +5,7 @@ import faiss
 import numpy as np
 import pandas as pd
 from sentence_transformers import SentenceTransformer
-from openai import OpenAI
+from openai import OpenAI, AuthenticationError, APIError, RateLimitError
 import os
 from dotenv import load_dotenv
 
@@ -20,12 +20,14 @@ METADATA_PATH = Path("../vector_store/metadata.json")
 DATA_PATH = Path("../processed/legal_corpus.csv")
 
 TOP_K = 5
+OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "openai/gpt-4o-mini")
 
 # OpenRouter client
+openrouter_api_key = os.getenv("OPEN_ROUTER_API_KEY")
 client = OpenAI(
-    api_key=os.getenv("OPENROUTER_API_KEY"),
+    api_key=openrouter_api_key,
     base_url="https://openrouter.ai/api/v1"
-) if os.getenv("OPENROUTER_API_KEY") else None
+) if openrouter_api_key else None
 
 
 def load_faiss_index(index_path: Path) -> faiss.Index:
@@ -83,6 +85,11 @@ if metadata and "content" not in metadata[0]:
 print("Loading embedding model...")
 model = SentenceTransformer(embedding_model_name)
 
+if client is None:
+    print("⚠️ Chưa có OPEN_ROUTER_API_KEY trong .env. Chatbot sẽ chỉ trả về ngữ cảnh tìm được.")
+elif not str(openrouter_api_key).startswith("sk-or-"):
+    print("⚠️ OPEN_ROUTER_API_KEY có vẻ không đúng định dạng key của OpenRouter (thường bắt đầu bằng 'sk-or-').")
+
 print("System ready!\n")
 
 # =============================
@@ -125,7 +132,10 @@ def search_law(question):
 
 def generate_answer(question, contexts):
     if client is None:
-        return "Thiếu OPENROUTER_API_KEY trong .env."
+        return (
+            "Thiếu OPENROUTER_API_KEY trong .env.\n"
+            "Đã trả về các đoạn luật liên quan ở trên; bạn có thể dùng trực tiếp để tham khảo."
+        )
 
     context_text = "\n\n".join(contexts)
 
@@ -142,16 +152,27 @@ Câu hỏi:
 {question}
 """
 
-    response = client.chat.completions.create(
-        model="openai/gpt-4o-mini",
-        messages=[
-            {"role": "system", "content": "Bạn là trợ lý pháp luật Việt Nam."},
-            {"role": "user", "content": prompt}
-        ],
-        temperature=0.2
-    )
-
-    return response.choices[0].message.content
+    try:
+        response = client.chat.completions.create(
+            model=OPENROUTER_MODEL,
+            messages=[
+                {"role": "system", "content": "Bạn là trợ lý pháp luật Việt Nam."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.2
+        )
+        return response.choices[0].message.content
+    except AuthenticationError:
+        return (
+            "Lỗi xác thực OpenRouter (401 - User not found).\n"
+            "Kiểm tra lại OPENROUTER_API_KEY trong .env (đúng key, còn hiệu lực, đúng tài khoản)."
+        )
+    except RateLimitError:
+        return "OpenRouter đang giới hạn tốc độ yêu cầu (rate limit). Hãy thử lại sau ít phút."
+    except APIError as exc:
+        return f"Lỗi API từ OpenRouter: {exc}"
+    except Exception as exc:
+        return f"Không thể gọi LLM: {exc}"
 
 
 # =============================

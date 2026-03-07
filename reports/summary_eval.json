@@ -1,0 +1,16 @@
+{
+  "retrieval": {
+    "n_questions": 100,
+    "hit@5": 0.91,
+    "mrr": 0.7591666666666668
+  },
+  "generation": {
+    "generation_f1": 0.4827356285955964,
+    "citation_score": 0.5,
+    "groundedness": 0.9324477072516923
+  },
+  "end_to_end": {
+    "end2end_score": 0.6798390221634076
+  },
+  "n_questions": 100
+}

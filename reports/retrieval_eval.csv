@@ -1,0 +1,101 @@
+﻿id,topic,question,expected_article,correct_rank,hit@5,rr,top1_id,top1_article
+1,Lao động,Độ tuổi lao động tối thiểu của người lao động được quy định như thế nào?,Điều 3 Bộ luật Lao động 2019,4.0,1,0.25,ND_12_2022_XuPhatLaoDong|dieu_29|c2,Điều 29 - ND 2022
+2,Lao động,Thời gian thử việc đối với công việc yêu cầu trình độ chuyên môn từ cao đẳng trở lên là bao lâu?,Điều 25 Bộ luật Lao động 2019,,0,0.0,LUAT_124_2025_GiaoDucNgheNghiep|dieu_33|c2,Điều 33 - LUAT 2025
+3,Dân sự,"Trong Bộ luật Dân sự, bất động sản bao gồm những gì?",Điều 107 Bộ luật Dân sự 2015,3.0,1,0.3333333333333333,LUAT_31_2024_DatDai|dieu_236|c2,Điều 236 - LUAT 2024
+4,Dân sự,Hoa lợi được định nghĩa như thế nào trong Bộ luật Dân sự?,Điều 109 Bộ luật Dân sự 2015,1.0,1,1.0,BOLUAT_91_2015_DANSU|dieu_86|c1,Điều 86 - BOLUAT 2015
+5,Đất đai,Đất đai tại Việt Nam thuộc sở hữu của ai?,Điều 12 Luật Đất đai 2024,1.0,1,1.0,LUAT_31_2024_DatDai|dieu_44|c1,Điều 44 - LUAT 2024
+6,Đất đai,Công dân có quyền tiếp cận những thông tin đất đai nào?,Điều 24 Luật Đất đai 2024,1.0,1,1.0,LUAT_31_2024_DatDai|dieu_18|c1,Điều 18 - LUAT 2024
+7,Kinh doanh Bất động sản,Các loại bất động sản nào được đưa vào kinh doanh theo Luật Kinh doanh bất động sản?,Điều 5 Luật Kinh doanh bất động sản 2023,1.0,1,1.0,LUAT_29_2023_KinhDoanhBatDongSan|dieu_44|c3,Điều 44 - LUAT 2023
+8,Xử phạt Xây dựng,Hành vi thu tiền của bên mua nhà ở hình thành trong tương lai vượt quá tỷ lệ quy định bị xử phạt bao nhiêu?,Điều 58 Nghị định 16/2022/NĐ-CP,3.0,1,0.3333333333333333,ND_123_2024_XuPhatDatDai|dieu_5|c2,Điều 5 - ND 2024
+9,Xử phạt Giao thông,Mức phạt đối với hành vi điều khiển xe ô tô chạy quá tốc độ trên 35 km/h là bao nhiêu?,Điều 6 Nghị định 168/2024/NĐ-CP,1.0,1,1.0,ND_168_2024_XuPhatGiaoThong|dieu_7|c7,Điều 7 - ND 2024
+10,Xử phạt Giao thông,Người điều khiển xe máy đi vào đường cao tốc bị xử phạt như thế nào?,Điều 7 Nghị định 168/2024/NĐ-CP,1.0,1,1.0,ND_168_2024_XuPhatGiaoThong|dieu_8|c1,Điều 8 - ND 2024
+11,Xử phạt Giao thông,Người điều khiển xe đạp máy chở người không đội mũ bảo hiểm bị phạt bao nhiêu tiền?,Điều 9 Nghị định 168/2024/NĐ-CP,1.0,1,1.0,ND_168_2024_XuPhatGiaoThong|dieu_12|c1,Điều 12 - ND 2024
+12,Xử phạt Môi trường,"Hành vi vứt, thải, bỏ rác thải trên vỉa hè bị xử phạt bao nhiêu?",Điều 25 Nghị định 45/2022/NĐ-CP,1.0,1,1.0,ND_45_2022_XuPhatMoiTruong|dieu_18|c9,Điều 18 - ND 2022
+13,Xử phạt Y tế,"Cơ sở khám bệnh, chữa bệnh bán thuốc cho người bệnh bị xử phạt như thế nào?",Điều 38 Nghị định 117/2020/NĐ-CP,1.0,1,1.0,ND_117_2020_XuPhatYTe|dieu_41|c2,Điều 41 - ND 2020
+14,Xử phạt Y tế,"Hành vi che giấu, không khai báo hiện trạng bệnh truyền nhiễm của bản thân bị xử phạt bao nhiêu?",Điều 7 Nghị định 117/2020/NĐ-CP,1.0,1,1.0,ND_117_2020_XuPhatYTe|dieu_16|c2,Điều 16 - ND 2020
+15,Xử phạt Bảo hiểm,Hành vi không đóng bảo hiểm y tế cho người lao động bắt buộc tham gia với quy mô dưới 10 người bị phạt bao nhiêu?,Điều 80 Nghị định 117/2020/NĐ-CP,2.0,1,0.5,ND_12_2022_XuPhatLaoDong|dieu_41|c3,Điều 41 - ND 2022
+16,Xử phạt Giáo dục,Mức phạt đối với hành vi làm bài hộ thí sinh hoặc trợ giúp thí sinh làm bài trong lĩnh vực giáo dục là bao nhiêu?,Điều 14 Nghị định 04/2021/NĐ-CP,1.0,1,1.0,ND_04_2021_XuPhatGiaoDuc|dieu_11|c2,Điều 11 - ND 2021
+17,Xử phạt Y tế,"Khi có hành vi phân biệt đối xử vì lý do người lao động nhiễm HIV, người sử dụng lao động bị xử phạt như thế nào?",Điều 23 Nghị định 117/2020/NĐ-CP,1.0,1,1.0,ND_117_2020_XuPhatYTe|dieu_23|c3,Điều 23 - ND 2020
+18,Viên chức,Thời hạn của hợp đồng làm việc xác định thời hạn đối với viên chức là bao lâu?,Điều 19 Nghị định 115/2020/NĐ-CP,1.0,1,1.0,ND_115_2020_TuyenDungVienChuc|dieu_19|c1,Điều 19 - ND 2020
+19,Xử phạt Y tế,"Hành vi tài trợ bằng sản phẩm rượu, bia bị xử phạt bao nhiêu?",Điều 37 Nghị định 117/2020/NĐ-CP,1.0,1,1.0,ND_117_2020_XuPhatYTe|dieu_32|c1,Điều 32 - ND 2020
+20,Đất đai,Tổ chức kinh tế nhận chuyển nhượng quyền sử dụng đất nông nghiệp có nghĩa vụ gì?,Điều 35 Luật Đất đai 2024,2.0,1,0.5,ND_123_2024_XuPhatDatDai|dieu_19|c1,Điều 19 - ND 2024
+21,Lao động,Người lao động được định nghĩa như thế nào trong Bộ luật Lao động?,Điều 3 Bộ luật Lao động 2019,1.0,1,1.0,BOLUAT_45_2019_LAODONG|dieu_117|c1,Điều 117 - BOLUAT 2019
+22,Lao động,Người sử dụng lao động có được quyền giữ bản chính giấy tờ tùy thân của người lao động khi giao kết hợp đồng lao động không?,Điều 17 Bộ luật Lao động 2019,2.0,1,0.5,ND_12_2022_XuPhatLaoDong|dieu_12|c2,Điều 12 - ND 2022
+23,Lao động,Có áp dụng thử việc đối với người lao động giao kết hợp đồng lao động dưới 01 tháng không?,Điều 24 Bộ luật Lao động 2019,2.0,1,0.5,ND_12_2022_XuPhatLaoDong|dieu_9|c3,Điều 9 - ND 2022
+24,Dân sự,Người chưa đủ sáu tuổi khi tham gia giao dịch dân sự thì do ai đại diện?,Điều 21 Bộ luật Dân sự 2015,1.0,1,1.0,BOLUAT_91_2015_DANSU|dieu_21|c1,Điều 21 - BOLUAT 2015
+25,Dân sự,"Khi một người biệt tích bao lâu thì có thể bị Tòa án tuyên bố mất tích theo yêu cầu của người có quyền, lợi ích liên quan?",Điều 68 Bộ luật Dân sự 2015,1.0,1,1.0,BOLUAT_91_2015_DANSU|dieu_70|c1,Điều 70 - BOLUAT 2015
+26,Dân sự,Giao dịch dân sự được xác lập một cách giả tạo nhằm che giấu một giao dịch khác thì bị xử lý như thế nào?,Điều 124 Bộ luật Dân sự 2015,1.0,1,1.0,BOLUAT_91_2015_DANSU|dieu_124|c1,Điều 124 - BOLUAT 2015
+27,Dân sự,Chủ sở hữu có được quyền đòi lại động sản phải đăng ký quyền sở hữu từ người chiếm hữu ngay tình không?,Điều 168 Bộ luật Dân sự 2015,1.0,1,1.0,BOLUAT_91_2015_DANSU|dieu_168|c1,Điều 168 - BOLUAT 2015
+28,Y tế,"Người bệnh được ra khỏi cơ sở khám bệnh, chữa bệnh trong những trường hợp nào?","Điều 84 Luật Khám bệnh, chữa bệnh 2023",,0,0.0,LUAT_112_2025_SuaDoiKhamBenh|dieu_77|c2,Điều 77 - LUAT 2025
+29,Giáo dục,Tiền lương của nhà giáo được quy định như thế nào?,Điều 76 Luật Giáo dục 2019,,0,0.0,LUAT_124_2025_GiaoDuc|dieu_76|c1,Điều 76 - LUAT 2025
+30,Môi trường,"Cá nhân khi đến khu di tích, điểm du lịch cần tuân thủ những nghĩa vụ gì về bảo vệ môi trường?",Điều 60 Luật Bảo vệ môi trường 2020,,0,0.0,LUAT_146_2025_BaoVeMoiTruong|dieu_66|c1,Điều 66 - LUAT 2025
+31,Giao thông,Khi nào người điều khiển phương tiện giao thông được phép vượt bên phải?,Điều 14 Luật Giao thông đường bộ 2008,1.0,1,1.0,LUAT_23_2008_GiaoThongDuongBo|dieu_63|c1,Điều 63 - LUAT 2008
+32,Giao thông,Những loại xe nào được quyền ưu tiên đi trước xe khác khi qua đường giao nhau?,Điều 22 Luật Giao thông đường bộ 2008,2.0,1,0.5,ND_100_2019_XuPhatGiaoThong|dieu_8|c2,Điều 8 - ND 2019
+33,Kinh doanh Bất động sản,"Khi thuê mua nhà ở, bên thuê mua phải thanh toán trước tối đa bao nhiêu phần trăm giá trị hợp đồng?",Điều 3 Luật Kinh doanh bất động sản 2023,,0,0.0,ND_16_2022_XuPhatXayDung|dieu_67|c2,Điều 67 - ND 2022
+34,Kinh doanh Bất động sản,"Tổ chức, cá nhân khi kinh doanh bất động sản có bắt buộc phải thành lập doanh nghiệp không?",Điều 9 Luật Kinh doanh bất động sản 2023,2.0,1,0.5,ND_16_2022_XuPhatXayDung|dieu_59|c2,Điều 59 - ND 2022
+35,Đất đai,Công dân có quyền tiếp cận những thông tin đất đai nào?,Điều 24 Luật Đất đai 2024,1.0,1,1.0,LUAT_31_2024_DatDai|dieu_18|c1,Điều 18 - LUAT 2024
+36,Đất đai,Cá nhân không trực tiếp sản xuất nông nghiệp nhận chuyển nhượng quyền sử dụng đất trồng lúa quá hạn mức phải đáp ứng điều kiện gì?,Điều 45 Luật Đất đai 2024,2.0,1,0.5,ND_123_2024_XuPhatDatDai|dieu_19|c2,Điều 19 - ND 2024
+37,Xử phạt Giáo dục,Hành vi lập hội đồng đánh giá luận văn thạc sĩ không đúng thành phần bị phạt bao nhiêu tiền?,Điều 11 Nghị định 04/2021/NĐ-CP,3.0,1,0.3333333333333333,ND_139_2017_XuPhatXayDung|dieu_38|c2,Điều 38 - ND 2017
+38,Xử phạt Giao thông,Người điều khiển xe mô tô đi ngược chiều của đường một chiều bị phạt bao nhiêu tiền?,Điều 6 Nghị định 168/2024/NĐ-CP,2.0,1,0.5,ND_100_2019_XuPhatGiaoThong|dieu_47|c3,Điều 47 - ND 2019
+39,Viên chức,Hợp đồng làm việc không xác định thời hạn đối với viên chức là gì?,Điều 19 Nghị định 115/2020/NĐ-CP,1.0,1,1.0,ND_115_2020_TuyenDungVienChuc|dieu_20|c2,Điều 20 - ND 2020
+40,Xử phạt Lao động,Người sử dụng lao động giữ bản chính giấy tờ tùy thân của người lao động bị phạt bao nhiêu tiền?,Điều 9 Nghị định 12/2022/NĐ-CP,1.0,1,1.0,ND_12_2022_XuPhatLaoDong|dieu_9|c2,Điều 9 - ND 2022
+41,Lao động,"Theo lộ trình, đến năm nào tuổi nghỉ hưu của lao động nam là 62 tuổi và lao động nữ là 60 tuổi?",Điều 4 Nghị định 135/2020/NĐ-CP,1.0,1,1.0,ND_135_2020_TuoiNghiHuu|dieu_4|c1,Điều 4 - ND 2020
+42,Lao động,"Trường hợp nữ lao động mang thai phải làm việc trong điều kiện độc hại, nguy hiểm thì có quyền gì?",Điều 137 Bộ luật Lao động 2019,2.0,1,0.5,LUAT_41_2024_BaoHiemXaHoi|dieu_55|c2,Điều 55 - LUAT 2024
+43,Lao động,Thời hạn báo trước khi người lao động đơn phương chấm dứt hợp đồng lao động không xác định thời hạn là bao lâu?,Điều 35 Bộ luật Lao động 2019,1.0,1,1.0,BOLUAT_45_2019_LAODONG|dieu_35|c1,Điều 35 - BOLUAT 2019
+44,Dân sự,"Tài sản thuộc sở hữu toàn dân chưa được giao cho ai quản lý thì do cơ quan nào tổ chức thực hiện bảo vệ, quy hoạch?",Điều 204 Bộ luật Dân sự 2015,1.0,1,1.0,BOLUAT_91_2015_DANSU|dieu_204|c1,Điều 204 - BOLUAT 2015
+45,Dân sự,Hợp đồng trao đổi tài sản có bắt buộc lập thành văn bản không?,Điều 455 Bộ luật Dân sự 2015,1.0,1,1.0,BOLUAT_91_2015_DANSU|dieu_455|c1,Điều 455 - BOLUAT 2015
+46,Xử phạt Y tế,Hành vi không cung cấp hoặc cung cấp sai lệch thông tin trong giải quyết quyền lợi BHYT làm thiệt hại cho người tham gia bị phạt bao nhiêu?,Điều 93 Nghị định 117/2020/NĐ-CP,4.0,1,0.25,ND_138_2013_XuPhatGiaoDuc|dieu_9|c3,Điều 9 - ND 2013
+47,Kinh doanh Bất động sản,Chủ đầu tư dự án bất động sản được phép thu tiền đặt cọc tối đa bao nhiêu % giá trị khi nhà ở hình thành trong tương lai đủ điều kiện bán?,Điều 23 Luật Kinh doanh bất động sản 2023,1.0,1,1.0,LUAT_29_2023_KinhDoanhBatDongSan|dieu_9|c2,Điều 9 - LUAT 2023
+48,Xử phạt Đất đai,Hành vi cản trở người khác sử dụng đất hợp pháp bị xử phạt như thế nào?,Điều 15 Nghị định 123/2024/NĐ-CP,1.0,1,1.0,ND_123_2024_XuPhatDatDai|dieu_5|c2,Điều 5 - ND 2024
+49,Bảo hiểm xã hội,"Người đang hưởng lương hưu, trợ cấp bảo hiểm xã hội hằng tháng bị tạm dừng hưởng trong các trường hợp nào?",Điều 75 Luật Bảo hiểm xã hội 2024,1.0,1,1.0,LUAT_41_2024_BaoHiemXaHoi|dieu_23|c2,Điều 23 - LUAT 2024
+50,Giao thông,Đơn vị đăng kiểm bị thu hồi giấy chứng nhận đủ điều kiện hoạt động thì sau bao lâu mới được xem xét cấp lại?,Điều 1 Nghị định 121/2024/NĐ-CP,,0,0.0,ND_15_2020_VienThong|dieu_107|c3,Điều 107 - ND 2020
+51,Lao động,Người lao động có quyền đơn phương chấm dứt hợp đồng lao động không cần báo trước trong trường hợp nào?,Điều 35 Bộ luật Lao động 2019,2.0,1,0.5,ND_12_2022_XuPhatLaoDong|dieu_12|c2,Điều 12 - ND 2022
+52,Lao động,Người sử dụng lao động có quyền đơn phương chấm dứt hợp đồng khi người lao động tự ý bỏ việc từ mấy ngày liên tục?,Điều 36 Bộ luật Lao động 2019,1.0,1,1.0,BOLUAT_45_2019_LAODONG|dieu_36|c1,Điều 36 - BOLUAT 2019
+53,Lao động,"Tiền lương làm thêm giờ vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương được tính như thế nào?",Điều 98 Bộ luật Lao động 2019,1.0,1,1.0,BOLUAT_45_2019_LAODONG|dieu_98|c1,Điều 98 - BOLUAT 2019
+54,Lao động,"Lao động nữ mang thai từ tháng thứ mấy thì người sử dụng lao động không được sử dụng làm việc ban đêm, làm thêm giờ và đi công tác xa?",Điều 137 Bộ luật Lao động 2019,1.0,1,1.0,BOLUAT_45_2019_LAODONG|dieu_137|c1,Điều 137 - BOLUAT 2019
+55,Lao động,Thời gian làm việc của người chưa đủ 15 tuổi được quy định như thế nào?,Điều 146 Bộ luật Lao động 2019,2.0,1,0.5,ND_12_2022_XuPhatLaoDong|dieu_29|c2,Điều 29 - ND 2022
+56,Dân sự,Quyền dân sự chỉ có thể bị hạn chế trong những trường hợp nào?,Điều 2 Bộ luật Dân sự 2015,1.0,1,1.0,BOLUAT_91_2015_DANSU|dieu_10|c1,Điều 10 - BOLUAT 2015
+57,Dân sự,Tài sản theo định nghĩa của Bộ luật Dân sự bao gồm những gì?,Điều 105 Bộ luật Dân sự 2015,1.0,1,1.0,BOLUAT_91_2015_DANSU|dieu_86|c1,Điều 86 - BOLUAT 2015
+58,Dân sự,Thời điểm giao kết hợp đồng bằng lời nói là khi nào?,Điều 400 Bộ luật Dân sự 2015,1.0,1,1.0,BOLUAT_91_2015_DANSU|dieu_400|c1,Điều 400 - BOLUAT 2015
+59,Dân sự,Hợp đồng phụ được quy định như thế nào?,Điều 402 Bộ luật Dân sự 2015,1.0,1,1.0,BOLUAT_91_2015_DANSU|dieu_543|c1,Điều 543 - BOLUAT 2015
+60,Dân sự,Nội dung của quyền bề mặt đối với đất đai là gì?,Điều 271 Bộ luật Dân sự 2015,1.0,1,1.0,BOLUAT_91_2015_DANSU|dieu_271|c1,Điều 271 - BOLUAT 2015
+61,Đất đai,Đất đai thuộc sở hữu của ai theo Luật Đất đai 2024?,Điều 12 Luật Đất đai 2024,2.0,1,0.5,ND_123_2024_XuPhatDatDai|dieu_29|c2,Điều 29 - ND 2024
+62,Đất đai,Chi phí đầu tư vào đất còn lại là gì?,Điều 3 Luật Đất đai 2024,2.0,1,0.5,ND_123_2024_XuPhatDatDai|dieu_18|c6,Điều 18 - ND 2024
+63,Đất đai,"Pháp luật quy định thế nào về các hành vi lấn đất, chiếm đất, hủy hoại đất?",Điều 11 Luật Đất đai 2024,2.0,1,0.5,ND_123_2024_XuPhatDatDai|dieu_33|c1,Điều 33 - ND 2024
+64,Đất đai,Công dân có quyền tiếp cận những thông tin đất đai nào?,Điều 24 Luật Đất đai 2024,1.0,1,1.0,LUAT_31_2024_DatDai|dieu_18|c1,Điều 18 - LUAT 2024
+65,Đất đai,Nhà nước thu hồi đất do vi phạm pháp luật về đất đai trong trường hợp sử dụng sai mục đích như thế nào?,Điều 81 Luật Đất đai 2024,1.0,1,1.0,LUAT_31_2024_DatDai|dieu_81|c1,Điều 81 - LUAT 2024
+66,Kinh doanh Bất động sản,"Khi bán nhà ở hình thành trong tương lai, chủ đầu tư được thu tiền đặt cọc tối đa bao nhiêu?",Điều 23 Luật Kinh doanh bất động sản 2023,2.0,1,0.5,ND_139_2017_XuPhatXayDung|dieu_57|c4,Điều 57 - ND 2017
+67,Kinh doanh Bất động sản,"Trong hợp đồng mua bán nhà ở, các bên có được tự thỏa thuận người làm thủ tục cấp Giấy chứng nhận không?",Điều 16 Luật Kinh doanh bất động sản 2023,2.0,1,0.5,LUAT_31_2024_DatDai|dieu_148|c3,Điều 148 - LUAT 2024
+68,Kinh doanh Bất động sản,"Người mua nhà ở, công trình xây dựng có nghĩa vụ gì liên quan đến việc sử dụng?",Điều 18 Luật Kinh doanh bất động sản 2023,1.0,1,1.0,LUAT_29_2023_KinhDoanhBatDongSan|dieu_13|c3,Điều 13 - LUAT 2023
+69,Xử phạt Giao thông,Mức phạt đối với người điều khiển xe mô tô chạy quá tốc độ quy định từ 10 km/h đến 20 km/h là bao nhiêu?,Điều 6 Nghị định 168/2024/NĐ-CP,1.0,1,1.0,ND_168_2024_XuPhatGiaoThong|dieu_7|c7,Điều 7 - ND 2024
+70,Xử phạt Giao thông,Hành vi không thắt dây đai an toàn khi xe ô tô đang chạy bị phạt bao nhiêu tiền?,Điều 11 Nghị định 168/2024/NĐ-CP,1.0,1,1.0,ND_168_2024_XuPhatGiaoThong|dieu_21|c2,Điều 21 - ND 2024
+71,Xử phạt Giao thông,"Người được chở trên xe mô tô, xe gắn máy không đội mũ bảo hiểm bị phạt bao nhiêu tiền?",Điều 11 Nghị định 168/2024/NĐ-CP,1.0,1,1.0,ND_168_2024_XuPhatGiaoThong|dieu_32|c3,Điều 32 - ND 2024
+72,Xử phạt Giao thông,"Hành vi bấm còi, rú ga liên tục, sử dụng đèn chiếu xa trong khu đông dân cư bị phạt bao nhiêu?",Điều 6 Nghị định 168/2024/NĐ-CP,1.0,1,1.0,ND_168_2024_XuPhatGiaoThong|dieu_15|c1,Điều 15 - ND 2024
+73,Xử phạt Y tế,"Mức phạt đối với hành vi phân biệt đối xử, chấm dứt hợp đồng lao động vì lý do người lao động nhiễm HIV là bao nhiêu?",Điều 23 Nghị định 117/2020/NĐ-CP,1.0,1,1.0,ND_117_2020_XuPhatYTe|dieu_24|c1,Điều 24 - ND 2020
+74,Xử phạt Y tế,Hành vi in cảnh báo sức khỏe trên bao bì thuốc lá không đúng quy định bị xử phạt thế nào?,Điều 26 Nghị định 117/2020/NĐ-CP,1.0,1,1.0,ND_98_2020_XuPhatThuongMai|dieu_21|c1,Điều 21 - ND 2020
+75,Xử phạt Y tế,Cơ sở khám chữa bệnh không niêm yết giá dịch vụ bị phạt bao nhiêu?,Điều 39 Nghị định 117/2020/NĐ-CP,1.0,1,1.0,ND_117_2020_XuPhatYTe|dieu_39|c4,Điều 39 - ND 2020
+76,Xử phạt Y tế,Bác sĩ đăng ký hành nghề cùng một thời gian tại các cơ sở khám chữa bệnh khác nhau bị phạt bao nhiêu?,Điều 39 Nghị định 117/2020/NĐ-CP,1.0,1,1.0,ND_117_2020_XuPhatYTe|dieu_38|c3,Điều 38 - ND 2020
+77,Xử phạt Y tế,Hành vi không thông báo cho cơ quan y tế khi phát hiện người mắc bệnh truyền nhiễm nhóm A bị xử phạt thế nào?,Điều 7 Nghị định 117/2020/NĐ-CP,1.0,1,1.0,ND_117_2020_XuPhatYTe|dieu_10|c2,Điều 10 - ND 2020
+78,Xử phạt Giáo dục,"Thành lập nhóm trẻ, lớp mẫu giáo độc lập khi chưa được phép bị phạt bao nhiêu?",Điều 5 Nghị định 04/2021/NĐ-CP,1.0,1,1.0,ND_04_2021_XuPhatGiaoDuc|dieu_5|c2,Điều 5 - ND 2021
+79,Xử phạt Giáo dục,Cơ sở giáo dục mầm non tổ chức hoạt động ngoài địa điểm được phép bị phạt thế nào?,Điều 6 Nghị định 04/2021/NĐ-CP,2.0,1,0.5,ND_138_2013_XuPhatGiaoDuc|dieu_6|c1,Điều 6 - ND 2013
+80,Xử phạt Giáo dục,"Hành vi sử dụng văn bằng, chứng chỉ của người khác bị phạt bao nhiêu?",Điều 23 Nghị định 04/2021/NĐ-CP,2.0,1,0.5,ND_17_2022_SuaDoiThuongMai|dieu_4b|c48,Điều 4b - ND 2022
+81,Xử phạt Giáo dục,Hành vi xúi giục học sinh không đi học các cấp học phổ cập bị phạt bao nhiêu?,Điều 29 Nghị định 04/2021/NĐ-CP,3.0,1,0.3333333333333333,ND_138_2013_XuPhatGiaoDuc|dieu_22|c1,Điều 22 - ND 2013
+82,Bảo hiểm xã hội,Trợ cấp hưu trí xã hội là gì?,Điều 3 Luật Bảo hiểm xã hội 2024,3.0,1,0.3333333333333333,BOLUAT_45_2019_LAODONG|dieu_169|c1,Điều 169 - BOLUAT 2019
+83,Bảo hiểm xã hội,Bảo hiểm hưu trí bổ sung là gì?,Điều 3 Luật Bảo hiểm xã hội 2024,1.0,1,1.0,LUAT_41_2024_BaoHiemXaHoi|dieu_93|c1,Điều 93 - LUAT 2024
+84,Bảo hiểm xã hội,Người lao động bị tai nạn trên đường đi làm có được hưởng chế độ ốm đau không?,Điều 42 Luật Bảo hiểm xã hội 2024,,0,0.0,ND_12_2022_XuPhatLaoDong|dieu_22|c6,Điều 22 - ND 2022
+85,Bảo hiểm xã hội,Lao động nam đóng BHXH trên 35 năm khi nghỉ hưu có được hưởng trợ cấp một lần không?,Điều 100 Luật Bảo hiểm xã hội 2024,1.0,1,1.0,LUAT_41_2024_BaoHiemXaHoi|dieu_68|c1,Điều 68 - LUAT 2024
+86,Xử phạt Lao động,Doanh nghiệp không khai trình việc sử dụng lao động theo quy định bị phạt bao nhiêu?,Điều 8 Nghị định 12/2022/NĐ-CP,1.0,1,1.0,ND_12_2022_XuPhatLaoDong|dieu_35|c2,Điều 35 - ND 2022
+87,Xử phạt Lao động,Người sử dụng lao động giữ bản chính giấy tờ tùy thân của người lao động khi giao kết hợp đồng bị phạt bao nhiêu?,Điều 9 Nghị định 12/2022/NĐ-CP,1.0,1,1.0,ND_12_2022_XuPhatLaoDong|dieu_35|c2,Điều 35 - ND 2022
+88,Xử phạt Lao động,Yêu cầu người lao động thử việc quá 01 lần đối với một công việc bị phạt bao nhiêu?,Điều 10 Nghị định 12/2022/NĐ-CP,1.0,1,1.0,ND_12_2022_XuPhatLaoDong|dieu_10|c1,Điều 10 - ND 2022
+89,Xử phạt Lao động,Hành vi quấy rối tình dục tại nơi làm việc chưa đến mức truy cứu hình sự bị phạt hành chính bao nhiêu?,Điều 11 Nghị định 12/2022/NĐ-CP,1.0,1,1.0,ND_12_2022_XuPhatLaoDong|dieu_11|c2,Điều 11 - ND 2022
+90,Xử phạt Môi trường,Mức phạt tiền tối đa đối với cá nhân vi phạm hành chính trong lĩnh vực bảo vệ môi trường là bao nhiêu?,Điều 4 Nghị định 45/2022/NĐ-CP,1.0,1,1.0,ND_45_2022_XuPhatMoiTruong|dieu_26|c15,Điều 26 - ND 2022
+91,Xử phạt Môi trường,"Hành vi vứt, thải, bỏ rác thải sinh hoạt trên vỉa hè bị phạt bao nhiêu?",Điều 25 Nghị định 45/2022/NĐ-CP,1.0,1,1.0,ND_45_2022_XuPhatMoiTruong|dieu_26|c3,Điều 26 - ND 2022
+92,Xử phạt Môi trường,Vận chuyển vật liệu xây dựng không che chắn để rơi vãi ra đường bị phạt bao nhiêu?,Điều 25 Nghị định 45/2022/NĐ-CP,,0,0.0,ND_336_2025_DuThao|dieu_8|c4,Điều 8 - ND 2025
+93,Xử phạt Môi trường,Gây tiếng ồn vượt quy chuẩn kỹ thuật từ 25 dBA đến dưới 30 dBA bị phạt bao nhiêu?,Điều 22 Nghị định 45/2022/NĐ-CP,1.0,1,1.0,ND_45_2022_XuPhatMoiTruong|dieu_22|c2,Điều 22 - ND 2022
+94,Xử phạt Xây dựng,Tổ chức thi công nhà ở riêng lẻ không che chắn để vật liệu rơi vãi bị phạt bao nhiêu?,Điều 16 Nghị định 16/2022/NĐ-CP,1.0,1,1.0,ND_16_2022_XuPhatXayDung|dieu_16|c1,Điều 16 - ND 2022
+95,Xử phạt Xây dựng,Xây dựng nhà ở riêng lẻ sai nội dung giấy phép xây dựng được cấp mới bị phạt bao nhiêu?,Điều 16 Nghị định 16/2022/NĐ-CP,1.0,1,1.0,ND_16_2022_XuPhatXayDung|dieu_16|c3,Điều 16 - ND 2022
+96,Xử phạt Xây dựng,Hành vi không gửi văn bản thông báo ngày khởi công xây dựng cho cơ quan nhà nước bị phạt bao nhiêu?,Điều 15 Nghị định 16/2022/NĐ-CP,2.0,1,0.5,ND_139_2017_XuPhatXayDung|dieu_14|c1,Điều 14 - ND 2017
+97,Xử phạt Đất đai,"Chuyển đất trồng lúa sang loại đất khác trong nhóm đất nông nghiệp dưới 0,5 héc ta trái phép bị phạt bao nhiêu?",Điều 8 Nghị định 123/2024/NĐ-CP,1.0,1,1.0,ND_123_2024_XuPhatDatDai|dieu_8|c1,Điều 8 - ND 2024
+98,Xử phạt Đất đai,Hành vi không thực hiện đăng ký đất đai lần đầu theo quy định bị phạt bao nhiêu tiền?,Điều 16 Nghị định 123/2024/NĐ-CP,1.0,1,1.0,ND_123_2024_XuPhatDatDai|dieu_16|c1,Điều 16 - ND 2024
+99,Xử phạt Đất đai,Sử dụng giấy tờ giả trong thực hiện thủ tục hành chính liên quan đến đất đai chưa đến mức truy cứu hình sự bị phạt bao nhiêu?,Điều 27 Nghị định 123/2024/NĐ-CP,4.0,1,0.25,ND_04_2021_XuPhatGiaoDuc|dieu_14|c2,Điều 14 - ND 2021
+100,Xử phạt Đất đai,"Di chuyển, làm sai lệch mốc địa giới đơn vị hành chính bị xử phạt bao nhiêu?",Điều 26 Nghị định 123/2024/NĐ-CP,,0,0.0,ND_14_2022_SuaDoiVienThong|dieu_1|c37,Điều 1 - ND 2022

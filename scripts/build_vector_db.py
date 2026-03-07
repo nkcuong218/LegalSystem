@@ -20,13 +20,13 @@ DEFAULT_METADATA_COLUMNS = [
     "article_title",
 ]
 
-
+#check xem du lieu dau vao co bị thiếu dữ liệu bắt buộc hay không, nếu thiếu ghi loi ra tẻminal
 def validate_input(df: pd.DataFrame) -> None:
     missing = [column for column in REQUIRED_COLUMNS if column not in df.columns]
     if missing:
         raise ValueError(f"CSV thiếu cột bắt buộc: {missing}")
 
-
+#xác dinh metadata can lưu : lay danh sach cac cot metadata, lam sach ten cot xoa khoang trang bo chuoi rong, giu lai cot thuc su ton tai
 def resolve_metadata_columns(df: pd.DataFrame, requested_columns: list[str] | None) -> list[str]:
     if requested_columns:
         columns = [column.strip() for column in requested_columns if column.strip()]
