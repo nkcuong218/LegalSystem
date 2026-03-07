@@ -3,6 +3,8 @@ const sendBtn = document.getElementById("sendBtn");
 const chatThreadNode = document.getElementById("chatThread");
 const defaultButtonText = sendBtn.textContent;
 
+const API_BASE_URL = (window.API_BASE_URL || "http://127.0.0.1:8000").replace(/\/$/, "");
+
 function scrollChatToBottom() {
     chatThreadNode.scrollTop = chatThreadNode.scrollHeight;
 }
@@ -62,7 +64,7 @@ async function sendQuestion() {
     setRequestState(true);
 
     try {
-        const response = await fetch("/api/chat", {
+        const response = await fetch(`${API_BASE_URL}/api/chat`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
